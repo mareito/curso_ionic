@@ -29,6 +29,62 @@ export class InicioPage implements OnInit {
     icon: 'beaker-outline',
     name: 'Avatar', 
     redirectTo: '/avatar'
+  },
+  {
+    icon: 'finger-print-outline',
+    name: 'Buttons', 
+    redirectTo: '/buttons'
+  },
+  {
+    icon: 'card-outline',
+    name: 'Cards', 
+    redirectTo: '/card'
+  }
+  ,
+  {
+    icon: 'checkmark-circle-outline',
+    name: 'Check', 
+    redirectTo: '/check'
+  },
+  {
+    icon: 'time-outline',
+    name: 'DateTime', 
+    redirectTo: '/date-time'
+  },
+  {
+    icon: 'car-outline',
+    name: 'Fab', 
+    redirectTo: '/fab'
+  }
+  ,
+  {
+    icon: 'grid-outline',
+    name: 'Grid', 
+    redirectTo: '/grid'
+  }
+  ,
+  {
+    icon: 'infinite-outline',
+    name: 'Infinite', 
+    redirectTo: '/infinite'
+  }
+  ,
+  {
+    icon: 'hammer-outline',
+    name: 'Input', 
+    redirectTo: '/input'
+  }
+  ,
+  {
+    icon: 'list-outline',
+    name: 'List - Sliding', 
+    redirectTo: '/list'
+  }
+  ,
+  {
+    icon: 'reorder-three-outline',
+    name: 'List - Reorder', 
+    redirectTo: '/list-reorder'
   }
 ];
 
