@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { IonList } from '@ionic/angular';
 import { Observable } from 'rxjs';
 import { DataService } from 'src/app/services/data.service';
-import { threadId } from 'worker_threads';
+
 
 
 @Component({

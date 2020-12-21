@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title *ngIf="nombre">{{nombre}} - {{pais}}</ion-title>
+    <ion-title *ngIf="!nombre">Pagina Modal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" fullscreen>
+    <ion-button (click)="salirSinArgumentos()" expand="block" >
+      Salir sin Argumentos
+    </ion-button>
+    <ion-button (click)="salirconArgumentos()" expand="block" >
+      Salir con Argumentos
+    </ion-button>
+</ion-content>
